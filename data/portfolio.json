@@ -1,0 +1,289 @@
+{
+  "owner": "Seo Jiwon",
+  "title": "portfolio",
+  "navigation": [
+    { "label": "PROFILE", "target": "profile" },
+    { "label": "ACHIEVEMENTS", "target": "achievements" },
+    { "label": "PROJECTS", "target": "projects" }
+  ],
+  "profile": {
+    "image": {
+      "src": "/images/profile.jpg",
+      "alt": "프로필 이미지 예시"
+    },
+    "nameKo": "서지원",
+    "nameEn": "SEO JIWON",
+    "contacts": [
+      { "label": "Email", "value": "wldnjstj99@gmail.com", "href": "mailto:wldnjstj99@gmail.com" },
+      { "label": "GitHub", "value": "seoiiwon", "href": "https://github.com/seoiiwon" },
+      { "label": "Phone", "value": "+82 10 4907 1447", "href": "tel:+821049071447" }
+    ],
+    "headline": "도전을 좋아하는 신입 개발자입니다.",
+    "introductions": [
+      "문제를 발견하고 여러 시각에서 해결 방안을 고민하며, 이를 더 나은 방향으로 발전시키는 과정을 좋아합니다.",
+      "전국 연합 IT 동아리에서 3년 간 활동하면서 세션과 스터디를 운영했고, 소프트웨어 대학생 멘토로 참여해 지식을 나누고, 함께 성장하는 경험을 꾸준히 쌓아왔습니다.",
+      "Spring Boot·FastAPI 기반 서버 개발과 AWS·Azure 기반 배포 환경 구축을 경험했습니다.",
+      "효율적이고 체계적인 시스템을 지향하며, 명확하고 일관된 설계를 바탕으로 유지보수하기 쉬운 환경을 만드는 것을 중요하게 생각합니다."
+    ],
+    "tags": ["Backend Developer", "DevOps", "Infra", "Cloud"]
+  },
+  "achievements": [
+    {
+      "id": "activities",
+      "label": "ACTIVITIES",
+      "groups": [],
+      "items": [
+        { "date": "2022.12~2023.02", "title": "소프트웨어야 놀자 대학생 멘토", "subtitle": "네이버 커넥트 x code club" },
+        { "date": "2023.01~2023.12", "title": "멋쟁이사자처럼 대학 11기 수료", "subtitle": "멋쟁이사자처럼" },
+        { "date": "2024.01~2024.03", "title": "소프트웨어야 놀자 대학생 멘토", "subtitle": "네이버 커넥트 x code club" },
+        { "date": "2024.01~2024.12", "title": "멋쟁이사자처럼 대학 12기 - 교내 운영진", "subtitle": "멋쟁이사자처럼" },
+        { "date": "2024.09~2025.01", "title": "구름톤 유니브 3기 - 경상국립대 대표", "subtitle": "kakao x goorm" },
+        { "date": "2025.03~2025.09", "title": "구름톤 유니브 4기 - 경상국립대 대표", "subtitle": "kakao x goorm" },
+        { "date": "2025.07", "title": "2025년 하나 소셜벤처 유니버시티 수료", "subtitle": "하나금융그룹" },
+        { "date": "2026.01~2026.08", "title": "SWYP 앱 5기 - 백엔드 개발자", "subtitle": "스위그" }
+      ]
+    },
+    {
+      "id": "awards",
+      "label": "AWARDS",
+      "groups": [],
+      "items": [
+        { "date": "2024.12.21", "title": "2024년 경남권 AWS GenAI Schumpeter 해커톤 우수상", "subtitle": "Amazon Web Services Korea" },
+        { "date": "2025.05.29", "title": "2025년 GSAT 영 스타트업 캠프 경진대회 대학부 최우수상", "subtitle": "경상남도" },
+        { "date": "2025.07.09", "title": "2025년 1학기 캡스톤디자인 경진대회 우수상", "subtitle": "경상국립대학교" },
+        { "date": "2025.07.25", "title": "2025년 경상남도 공공데이터 활용 창업경진대회 최우수상", "subtitle": "경상남도" },
+        { "date": "2025.08.20", "title": "2025년 다움 대학생 리얼톤 우수상", "subtitle": "울산광역시의회" },
+        { "date": "2025.12.12", "title": "2025년 동남권 대학생 창업경진대회 우수상", "subtitle": "창업교육혁신센터" }
+      ]
+    },
+    {
+      "id": "quialifications",
+      "label": "QUALIFICATIONS",
+      "items": [],
+      "groups": [
+        {
+          "id": "school",
+          "items": [
+            { "date": "2022.03~2026.08", "title": "경상국립대학교 졸업예정", "subtitle": "컴퓨터공학 | 스마트제조ICT" }
+          ]
+        },
+        {
+          "id": "certifications",
+          "items": [
+            { "date": "2026.06.19", "title": "SQLD", "subtitle": "Amazon Web Services Korea" },
+            { "date": "2026.07.03", "title": "리눅스마스터 2급", "subtitle": "한국정보통신진흥협회" },
+            { "date": "2026.07.09", "title": "AWS Certified Solutions Architect - Associate", "subtitle": "Amazon Web Services(AWS)" }
+          ]
+        },
+        {
+          "id": "languages",
+          "items": [
+            { "date": "2026.03.15", "title": "2025년 경상남도 공공데이터 활용 창업경진대회 최우수상", "subtitle": "YBM" }
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "mohaeng",
+      "logo": { "src": "/images/projects/mohaeng.png", "alt": "모행 로고" },
+      "title": "모행(MOHAENG)",
+      "period": "2026.06~",
+      "topic": "장소 기반 약속 조율 플랫폼",
+      "description": "8인 팀 프로젝트 | 백엔드 개발자",
+      "status": "운영중",
+      "keywords": ["FastAPI", "PostgreSQL", "Azure", "Ansible", "SQLAlchemy", "Redis", "Docker Compose", "GitHub Actions", "Nginx", "Cloudflare"],
+      "githubLinks": [{ "label": "GitHub", "href": "https://github.com/SWYP-5th-TEAM2" }],
+      "urls": [{ "label": "App Store", "href": "https://apps.apple.com/kr/app/모행-딸깍-한-번-약속-확정/id6786574672" }],
+      "details": [
+        {
+          "title": "FastAPI·PostgreSQL 기반 백엔드 서버 개발",
+          "contents": [
+            "OAuth 기반 소셜 로그인과 JWT 인증 기능 구현, Refresh Token Rotation과 Redis 블랙리스트를 활용한 토큰 재발급 및 재사용 방지",
+            "ERD 설계 및 SQLAlchemy 모델링, Alembic을 활용한 데이터베이스 스키마 버전 관리"
+          ]
+        },
+        {
+          "title": "Microsoft Azure 기반 클라우드 인프라 구축",
+          "contents": [
+            "FastAPI·Redis·Nginx·Azure VM 기반 백엔드 및 배포 아키텍처 설계",
+            "Azure VM에 백엔드 서버와 관련 서비스를 Docker Compose로 컨테이너화하여 배포",
+            "Ansible을 활용하여 Nginx, Docker, Certbot 등 인프라 환경을 코드화하고 구축 과정 자동화",
+            "Cloudflare DNS·Proxy 및 Nginx Reverse Proxy 구성, Let's Encrypt·Certbot을 활용한 HTTPS 인증서 발급 및 갱신 자동화",
+            "Azure Blob Storage를 활용한 이미지 파일 저장 및 업로드 기능 구현"
+          ]
+        },
+        {
+          "title": "컨테이너 기반 CI/CD 및 무중단 배포 환경 구축",
+          "contents": [
+            "GitHub Actions와 Azure Container Registry 기반 이미지 빌드·배포 파이프라인 구축",
+            "Blue/Green 배포 전략을 적용하여 다운타임을 최소화한 무중단 배포 환경 설계"
+          ]
+        }
+      ],
+      "images": [
+        { "src": "/images/projects/mohaeng/thumbnail.png", "alt": "썸네일" },
+        { "src": "/images/projects/mohaeng/architecture.png", "alt": "아키텍처" }
+      ]
+    },
+    {
+      "id": "jjinbbang",
+      "logo": { "src": "/images/projects/jjinbbang.png", "alt": "찐빵 로고" },
+      "title": "찐빵(JJINBBANG)",
+      "period": "2025.01~",
+      "topic": "대학가 자취 후기 플랫폼",
+      "description": "9인 팀 프로젝트 | 백엔드 개발자",
+      "status": "리팩토링 및 확장 중",
+      "keywords": ["Java", "Spring Boot", "MySQL", "AWS", "JPA", "CLOVA OCR", "OpenAI API", "Slack Webhook", "Prometheus", "Grafana", "Loki"],
+      "githubLinks": [{ "label": "GitHub", "href": "https://github.com/JJinBBang-web" }],
+      "urls": [{ "label": "서비스 바로가기", "href": "https://www.jjinbbang.kr/" }],
+      "details": [
+        {
+          "title": "Spring Boot·MySQL 기반 백엔드 서버 개발",
+          "contents": [
+            "재학생 인증, 사용자 관리 및 관리자 API 등 회원·인증 관련 기능 개발",
+            "Google Drive 및 Google Sheets API를 연동하여 신고·문의 데이터 수집 및 관리 기능 구현",
+            "ERD 설계 및 JPA·Hibernate 기반 엔티티 모델링"
+          ]
+        },
+        {
+          "title": "외부 API 활용 신입생 인증 기능 개발",
+          "contents": [
+            "NAVER CLOVA OCR과 Vision LLM을 활용해 합격증명서 등 문서 텍스트 추출 및 유효성 검증",
+            "자동 검증이 어려운 항목을 Slack Webhook을 통해 관리자 채널로 전달하는 검수 파이프라인 구현",
+            "신규 가입이 집중되는 1~2월 재학생 인증 요청의 50%를 자동화하여 수동 검수 부담 완화"
+          ]
+        },
+        {
+          "title": "모니터링 및 로그 관리 환경 구축",
+          "contents": [
+            "Prometheus·Grafana 기반 메트릭 수집 및 시각화",
+            "Loki 기반 애플리케이션 로그 수집 및 통합 조회 환경 구축"
+          ]
+        }
+      ],
+      "images": [
+        { "src": "/images/projects/jjinbbang/thumbnail.png", "alt": "썸네일" }
+      ]
+    },
+    {
+      "id": "popcong",
+      "logo": { "src": "/images/projects/popcong.png", "alt": "팝콩 로고" },
+      "title": "팝콩(POPCONG)",
+      "period": "2025.07~2025.08",
+      "topic": "유휴 공간 팝업 컨택 플랫폼",
+      "description": "6인 팀 프로젝트 | 백엔드 개발자",
+      "status": "종료",
+      "keywords": ["Java", "Spring Boot", "PostgreSQL", "AWS", "JPA", "OAuth·JWT", "Docker", "WebSocket", "Valkey", "GitHub Actions"],
+      "githubLinks": [{ "label": "GitHub", "href": "https://github.com/POPCONG" }],
+      "urls": [],
+      "details": [
+        {
+          "title": "Spring Boot·PostgreSQL 기반 백엔드 서버 개발",
+          "contents": [
+            "Spring Security·JWT 기반 인증·인가 구조와 역할별 API 접근 제어 구현, 카카오 OAuth 로그인 연동",
+            "WebSocket·Valkey 기반 실시간 상담 채팅 및 예약 전환 프로세스 설계·구현",
+            "ERD 설계 및 JPA·Hibernate 기반 엔티티 모델링"
+          ]
+        },
+        {
+          "title": "AWS 기반 클라우드 인프라 구축",
+          "contents": [
+            "백엔드와 인프라 전반의 소프트웨어 아키텍처 설계",
+            "AWS EC2에 백엔드 서버와 관련 서비스를 Docker 기반으로 컨테이너화하여 배포",
+            "GitHub Actions와 Amazon ECR을 활용한 컨테이너 이미지 빌드·배포 파이프라인 구축"
+          ]
+        }
+      ],
+      "images": [
+        { "src": "/images/projects/popcong/thumbnail.png", "alt": "썸네일" }
+      ]
+    },
+    {
+      "id": "resttest",
+      "logo": { "src": "/images/projects/resttest.png", "alt": "쉬엄시험 로고" },
+      "title": "쉬엄시험(RESTTEST)",
+      "period": "2025.03~2025.07",
+      "topic": "AI 기반 맞춤형 학습 플랫폼",
+      "description": "4인 팀 프로젝트 | 백엔드 개발자",
+      "status": "완료",
+      "keywords": ["Python", "FastAPI", "MySQL", "AWS", "SQLAlchemy", "Redis", "OAuth·JWT", "Docker", "GitHub Actions"],
+      "githubLinks": [{ "label": "GitHub", "href": "https://github.com/RestTest-App" }],
+      "urls": [],
+      "details": [
+        {
+          "title": "FastAPI·MySQL 기반 백엔드 서버 개발",
+          "contents": [
+            "OAuth 기반 카카오 소셜 로그인 및 JWT 인증·인가 기능 구현",
+            "기출문제 풀이 및 복습노트 관련 핵심 기능 구현",
+            "ERD 설계 및 SQLAlchemy 모델링, Alembic을 활용한 데이터베이스 스키마 버전 관리"
+          ]
+        },
+        {
+          "title": "AWS 기반 클라우드 인프라 구축",
+          "contents": [
+            "백엔드와 인프라 전반의 소프트웨어 아키텍처 설계",
+            "AWS EC2에 백엔드 서버와 관련 서비스를 Docker 기반으로 컨테이너화하여 배포",
+            "AWS S3를 활용한 이미지 파일 저장 및 업로드 기능 구현",
+            "GitHub Actions와 Amazon ECR을 활용한 컨테이너 이미지 빌드·배포 파이프라인 구축"
+          ]
+        }
+      ],
+      "images": [
+        { "src": "/images/projects/resttest/thumbnail.png", "alt": "썸네일" }
+      ]
+    }
+  ],
+  "projectArchive": {
+    "eyebrow": "OTHER PROJECTS",
+    "title": "기타 프로젝트 모아보기",
+    "description": "작은 실험과 개인 작업을 한 곳에서 정리합니다.",
+    "items": [
+      {
+        "title": "GREW",
+        "meta": "교내 크루 탐색 플랫폼 | 개인 프로젝트 | 2025.09~2025.12",
+        "githubLinks": [{ "label": "GitHub", "href": "https://github.com/GREW-GNU" }],
+        "urls": [],
+        "contents": [
+          "Flutter를 활용한 크로스 플랫폼 애플리케이션 개발(iOS, Android)",
+          "Spring Boot 기반 서버 개발",
+          "AWS 기반 인프라 설계 및 관리"
+        ]
+      },
+      {
+        "title": "개척(GAECHUCK)",
+        "meta": "경상국립대학교 앱 | 총학생회 협업 프로젝트 | 안드로이드 개발자 | 2024.12~2025.07",
+        "githubLinks": [],
+        "urls": [{ "label": "URL", "href": "https://play.google.com/store/apps/details?id=com.gaechuck_package.gaechuck&hl=ko" }],
+        "contents": ["안드로이드 네이티브 앱 개발"]
+      },
+      {
+        "title": "GNU PIESTA",
+        "meta": "경상국립대학교 대동제 ‘PIESTA’ 웹 서비스 | 총학생회 협업 프로젝트 | 기획·웹 개발자 | 2024.09~2024.10",
+        "githubLinks": [{ "label": "GitHub", "href": "https://github.com/seoiiwon/2024_GNU_PIESTA" }],
+        "urls": [],
+        "contents": ["웹 프론트엔드 개발", "GCP 서버 배포"]
+      },
+      {
+        "title": "학원 업무 자동화 시스템 구축",
+        "meta": "모세스 어학원 | 2026.02~2026.04",
+        "githubLinks": [],
+        "urls": [],
+        "contents": [
+          "Make 기반 노코드 자동화 파이프라인 구축",
+          "Google Sheets, Notion, Solapi, OpenAI API 등을 연동한 학원 업무 자동화 구축 및 운영",
+          "상담 관련 문자 발송 프로세스 100% 자동화",
+          "상담 누락 방지를 위한 사전 안내 시스템 구축",
+          "등·퇴원생 자동 업데이트 및 전체 재원생 현황 시각화"
+        ]
+      }
+    ]
+  },
+  "moreProjects": {
+    "title": "프로젝트 더 보기",
+    "description": "GitHub에서 다양한 프로젝트를 확인하실 수 있습니다.",
+    "label": "GitHub에서 보기",
+    "href": "https://github.com/seoiiwon"
+  }
+}
