@@ -40,7 +40,7 @@
         { "date": "2024.09~2025.01", "title": "구름톤 유니브 3기 - 경상국립대 대표", "subtitle": "kakao x goorm" },
         { "date": "2025.03~2025.09", "title": "구름톤 유니브 4기 - 경상국립대 대표", "subtitle": "kakao x goorm" },
         { "date": "2025.07", "title": "2025년 하나 소셜벤처 유니버시티 수료", "subtitle": "하나금융그룹" },
-        { "date": "2026.01~2026.08", "title": "SWYP 앱 5기 - 백엔드 개발자", "subtitle": "스위그" }
+        { "date": "2026.05~2026.08", "title": "SWYP 앱 5기 - 백엔드 개발자", "subtitle": "스위그" }
       ]
     },
     {
@@ -89,7 +89,7 @@
       "id": "mohaeng",
       "logo": { "src": "/images/projects/mohaeng.png", "alt": "모행 로고" },
       "title": "모행(MOHAENG)",
-      "period": "2026.06~",
+      "period": "2026.06~2026.08",
       "topic": "장소 기반 약속 조율 플랫폼",
       "description": "8인 팀 프로젝트 | 백엔드 개발자",
       "status": "운영중",
