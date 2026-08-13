@@ -70,7 +70,7 @@
         {
           "id": "certifications",
           "items": [
-            { "date": "2026.06.19", "title": "SQLD", "subtitle": "Amazon Web Services Korea" },
+            { "date": "2026.06.19", "title": "SQLD", "subtitle": "한국데이터산업진흥원" },
             { "date": "2026.07.03", "title": "리눅스마스터 2급", "subtitle": "한국정보통신진흥협회" },
             { "date": "2026.07.09", "title": "AWS Certified Solutions Architect - Associate", "subtitle": "Amazon Web Services(AWS)" }
           ]
